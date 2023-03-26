@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    /* changes background of body color to white */
+    background-color: black;
+  }
+  nav{
+    height:100px;
+    width:100%;
+    /* changes background color of nav to white */
+    background-color: white;
+  }
+  
+  ul {
+    /* space from the left to add image */
+    margin-left: 60px;
+  }
+  ul li {
+    /* removed bullets from next to unordered list */
+    list-style: none;
+    /* words float left without space */
+    float: left;
+    /* next to each other */
+    display: inline-block;
+    /* centers the links and list to the middle of nav bar */
+    line-height: 100px;
+    
+  }
+  ul li a {
+    /* Removed underline from text*/
+    text-decoration: none;
+    /* color of text is black */
+    color: black;
+    /* gives space above and below link that are click able */ 
+    display: block;
+    /* 0px from top and bottom and 20px from left and right of words */
+    padding: 0px 20px;
+    /* changed the font size to 16 px */
+    font-size: 16px;
+    /* set the font to arial */
+    font-family: arial;
+    
+  }
+  
+  /* color while hovering over text */
+  ul li a:hover {
+    color: aqua;
+  }
+  
+  /* color of text when on that page. So it is the active page that you are on so it is red. like below the page we are on is the home page so its red. you can change anything as you desire */
+  ul a.active {
+    color: red;
+  }
+  
+  /* just styling for the text of the body on the page. you can delete this style. */
+  h1.color {
+    color: white;
+    text-align: center;
+  }
+  
+  img {
+    margin-top: 25px;
+  }
+
+
+incr{
+  color: aqua;
+}
